@@ -1,6 +1,6 @@
 # ColorSchemeGenerator
 
-Using thr Color API to create a Usable Color Scheme Generator in browser
+Using the Color API to create a Usable Color Scheme Generator in browser
 
 DOM Manipulation
 Async JS
