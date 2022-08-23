@@ -1,0 +1,128 @@
+/*Style REset*/
+
+html{
+    font-size: 62.5%;
+}
+
+* , *::after , *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Edited Styles*/
+
+body{
+    display: grid;
+    height: 100vh;
+    place-content: center;
+    font-family: 'Poppins' , sans-serif;
+    
+}
+
+header{
+
+}
+
+main {
+    width: 550px;
+    height: 550px;
+}
+
+.app{
+    display: grid;
+    height: 100%;
+    grid-template-rows: max-content;
+    outline: 1px solid #d1d5db;
+    border-radius: 6px;
+    
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+input[type=color]{
+    width: 61px;
+    height: 42px;
+    border: 1px solid #d1d5db;
+}
+
+.form > select {
+    flex-basis: 312px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    box-shadow: .1rem .1rem #d1d5db , -.1rem 0 #d1d5db;
+    font-family: 'Poppins' , sans-serif;
+
+}
+
+.form > select:focus-visible{
+    outline: none;
+}
+
+
+.form > select > option::selection {
+    font-weight: bold;
+    
+}
+.form > button{
+    background-color: #fff;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+    padding: 0 1.5em;
+    box-shadow: .1rem .1rem #d1d5db , -.1rem 0 #d1d5db;
+    font-family: 'Poppins' , sans-serif;
+
+}
+
+.color-group{
+    display: flex;
+    
+}
+
+.color-group > div{
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.color-group div span:nth-of-type(1){
+    height: 90%;
+}
+
+.color-group div span:nth-of-type(2){
+    height: 10%;
+    padding: 1rem 0 ;
+    
+}
+
+.color1{
+background-color: #f55a5a ;
+}
+
+.color2{
+  background-color: #2b283a;  
+}
+
+.color3{
+   background-color: #fbf3ab; 
+}
+
+.color4{
+   background-color: #aad1b6; 
+}
+.color5{
+   background-color: #a626d3; 
+}
+
+.text {
+    text-transform: uppercase;
+}
